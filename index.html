@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link href="slick-theme.css" rel="stylesheet" type="text/css">
+  <link href="slick.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="slick.min.js"></script>
+  <title>HTMLCSS</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="header_logo">
+      <picture>
+        <source srcset="img/sappari.png" media="(max-width:1024px)">
+        <img src="img/sappari.png">
+      </picture>
+    </div>
+    <div class="menu_field">
+      <ul class="menu">
+        <li class="menu_list">top</li>
+        <li class="menu_list">about</li>
+        <li class="menu_list">access</li>
+        <li class="menu_list">help</li>
+      </ul>
+    </div>
+    <div class="hamburger_menu">
+      <input type="checkbox" id="menu_btn_check">
+      <label for="menu_btn_check" class="menu_btn"><span></span></label>
+      <p class="checked">menu</p>
+      <p class="not_checked">close</p>
+      <div class="menu_content">
+        <ul>
+          <li><a>top</a></li>
+          <li><a>about</a></li>
+          <li><a>access</a></li>
+          <li><a>help</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="fade">
+      <img src="img/main_01.png" width="100%">
+      <img src="img/main_02.png" width="100%">
+      <img src="img/main_03.png" width="100%">
+      <img src="img/main_04.png" width="100%">
+    </div>
+
+    <div class="wrapper">
+      <section class="side_bar_field">
+        <div class="side_bar">
+          <div class="side_contents">
+            <picture>
+              <source srcset="img/pc_img_11.png">
+              <img src="img/pc_img_11.png" width="90%" height="90%">
+            </picture>
+            <div class="side_contents_text">
+              <div class="side_contents_title">
+                <h3>飼い主募集中</h3>
+              </div>
+              <div class="side_contents_tag">
+                <p>くま牧場</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="side_contents">
+            <picture>
+              <source srcset="img/pc_img_10.png">
+              <img src="img/pc_img_10.png" width="90%" height="90%">
+            </picture>
+            <div class="side_contents_text">
+              <div class="side_contents_title">
+                <h3>映える海鮮丼ならココ</h3>
+              </div>
+              <div class="side_contents_tag">
+                <p>さかないっぱい市場</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="side_contents">
+            <picture>
+              <source srcset="img/pc_img_08.png">
+              <img src="img/pc_img_08.png" width="90%" height="90%">
+            </picture>
+            <div class="side_contents_text">
+              <div class="side_contents_title">
+                <h3>売る気のないメルカソ特集</h3>
+              </div>
+              <div class="side_contents_tag">
+                <p>メルカソ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="main_contents">
+        <div class="photo_album">
+          <div class="photo1">
+            <picture>
+              <source srcset="img/pc_img_01.png">
+              <img src="img/pc_img_01.png" width="100%" height="100%">
+            </picture>
+          </div>
+          <div class="photo2">
+            <picture>
+              <source srcset="img/pc_img_02.png">
+              <img src="img/pc_img_02.png" width="100%" height="100%">
+            </picture>
+          </div>
+          <div class="photo3">
+            <picture>
+              <source srcset="img/pc_img_03.png">
+              <img src="img/pc_img_03.png" width="100%" height="100%">
+            </picture>
+          </div>
+          <div class="photo4">
+            <picture>
+              <source srcset="img/pc_img_04.png">
+              <img src="img/pc_img_04.png" width="100%" height="100%">
+            </picture>
+          </div>
+        </div>
+
+        <div class="slider_field">
+          <ul class="slider">
+            <li><img src="img/pc_img_01.png"></li>
+            <li><img src="img/pc_img_02.png"></li>
+            <li><img src="img/pc_img_03.png"></li>
+            <li><img src="img/pc_img_04.png"></li>
+          </ul>
+        </div>
+
+        <div class="youtube">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/3xqvrazVkuY" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+
+        <div class="whats_new">
+          <div class="contents_title">
+            <h3>新着情報</h3>
+          </div>
+          <ul class="topics">
+            <li class="topic">・ジンギスカンは松尾が美味しい</li>
+            <li class="topic">・札幌一番は「塩」一択</li>
+            <li class="topic">・北海道赤平市が人気急上昇？</li>
+            <li class="topic">・ジンギスカンは松尾が美味しい</li>
+            <li class="topic">・札幌一番は「塩」一択</li>
+          </ul>
+        </div>
+
+        <section class="suggest_field">
+          <div class="suggest">
+            <div class="suggest_img">
+              <picture>
+                <source srcset="img/pc_img_05.png">
+                <img src="img/pc_img_05.png">
+              </picture>
+            </div>
+            <div class="suggest_text_box">
+              <div class="suggest_title">
+                <h3>赤平よいとこ一度はおいで</h3>
+              </div>
+              <div class="suggest_text">
+                <p>北海道赤平市は北海道出身者が出演する某人気テレビ<br>
+                  番組の影響でここ数年で知名度が急上昇。<br>
+                  ドラマのロケ地になるなど、注目を集めています。</p>
+              </div>
+              <div class="suggest_btn_field">
+                <div class="suggest_btn">
+                  もっと知りたい
+                </div>
+                <div class="suggest_btn">
+                  今すぐ行きます
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="mercari_field">
+          <div class="mercari_pictures">
+            <div class="mercari_picture">
+              <picture>
+                <source srcset="img/buildingjpeg.jpeg">
+                <img src="img/buildingjpeg.jpeg">
+              </picture>
+              <div class="mercari_text_field">
+                <p>マンション買うならいくら？</p>
+              </div>
+              <div class="want_btn_responsive">
+                <p>欲しい</p>
+              </div>
+            </div>
+            <div class="mercari_picture">
+              <picture>
+                <source srcset="img/IMG_1176.jpeg">
+                <img src="img/IMG_1176.jpeg">
+              </picture>
+              <div class="mercari_text_field">
+                <p>あの時買えばよかったアレ</p>
+              </div>
+              <div class="want_btn_responsive">
+                <p>欲しい</p>
+              </div>
+            </div>
+            <div class="mercari_picture">
+              <picture>
+                <source srcset="img/IMG_1319.jpeg">
+                <img src="img/IMG_1319.jpeg">
+              </picture>
+              <div class="mercari_text_field">
+                <p>売る気のないメルカソ特集</p>
+              </div>
+              <div class="want_btn_responsive">
+                <p>欲しい</p>
+              </div>
+            </div>
+          </div>
+          <div class="mercari_btn_field">
+            <div class="mercari_btn">
+              <p>メルカソでお買い物する</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="tokyo_suggest_field">
+          <div class="tokyo_suggest">
+            <div class="suggest_img">
+              <picture>
+                <source srcset="img/pc_img_05.png">
+                <img src="img/pc_img_05.png">
+              </picture>
+            </div>
+            <div class="suggest_text_box">
+              <div class="suggest_title">
+                <h3>東京の空も悪くない</h3>
+              </div>
+              <div class="suggest_text">
+                <p>東京は空が狭い<br>
+                  高いビルが隙間なくたくさん伸びていって、<br>
+                  空全体が見えることなんてほとんどないけど。<br>
+                  たまに高い所から空を見てみると、<br>
+                  意外な発見があったりして。一息つくのもいいと思うよ。</p>
+              </div>
+              <div class="suggest_btn_field">
+                <div class="tokyo_suggest_btn">
+                  <p>空の写真をもっと見る<a></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="nagisakun_field">
+          <div class="nagisakun">
+            <picture>
+              <source srcset="img/pc_img_08.png">
+              <img src="img/pc_img_08.png">
+            </picture>
+            <div class="nagisakun_text">
+              <p>未使用ZIPPO</p>
+            </div>
+            <div class="want_btn">
+              <p>欲しい</p>
+            </div>
+          </div>
+          <div class="nagisakun">
+            <picture>
+              <source srcset="img/pc_img_08.png">
+              <img src="img/pc_img_08.png">
+            </picture>
+            <div class="nagisakun_text">
+              <p>モノリスオルゴール</p>
+            </div>
+            <div class="want_btn">
+              <p>欲しい</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="gourmet_field">
+          <div class="gourmet">
+            <div class="gourmet_img">
+              <picture>
+                <source srcset="img/pc_img_10.png">
+                <img src="img/pc_img_10.png">
+              </picture>
+            </div>
+            <div class="suggest_text_box">
+              <div class="suggest_title">
+                <h3>日本に生まれてよかったでしょ</h3>
+              </div>
+              <div class="suggest_text">
+                <p>海外旅行に行く度思う事。「日本のご飯が食べたい。」<br>
+                  食べなれてるものだからということもあるだろうけれど、<br>
+                  それだけじゃないよね。</p>
+              </div>
+              <div class="gourmet_btn_field">
+                <div class="gourmet_btn">
+                  <p>カレーを食べたい<a></a></p>
+                </div>
+                <div class="gourmet_btn">
+                  <p>今日はラーメン<a></a></p>
+                </div>
+                <div class="gourmet_btn">
+                  <p>デート前だからガマン<a></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer_logo">
+      <picture>
+        <source srcset="img/sappari.png" media="(max-width:1024px)">
+        <img src="img/sappari.png">
+      </picture>
+    </div>
+    <div class="footer_text_field">
+      <div class="footer_title">
+        <h3>Matuo sheep</h3>
+      </div>
+      <div class="footer_text">
+        <p>〒000-0000 TOKYO SHINJUKU 0_0_0</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="fade.js"></script>
+  <script src="slider.js"></script>
+  <script src="modal.js"></script>
+
+</body>
